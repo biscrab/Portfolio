@@ -17,6 +17,7 @@
     "@types/styled-components": "^5.1.24",
     "jquery": "^3.6.0",
     "next": "12.1.4",
+    "particlesjs": "^2.2.3",
     "react": "18.0.0",
     "react-dom": "18.0.0"
   },

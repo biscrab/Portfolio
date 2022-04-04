@@ -1566,6 +1566,11 @@
   dependencies:
     "callsites" "^3.0.0"
 
+"particlesjs@^2.2.3":
+  "integrity" "sha512-f0rL80Agqdsrnv/uhlLewv+LMdiXHu9MYPzMv0ZLPM06nLx3zmAXMH882fxqO6Uzb91csli8WlWaYd2XPN0d/Q=="
+  "resolved" "https://registry.npmjs.org/particlesjs/-/particlesjs-2.2.3.tgz"
+  "version" "2.2.3"
+
 "path-exists@^3.0.0":
   "integrity" "sha1-zg6+ql94yxiSXqfYENe1mwEP1RU="
   "resolved" "https://registry.npmjs.org/path-exists/-/path-exists-3.0.0.tgz"
