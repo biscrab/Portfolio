@@ -45,6 +45,10 @@ const Home: NextPage = () => {
           <img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAA8CAMAAABreNUXAAAAclBMVEX///8AAAAbHyMWExKlpaUTEA/7+/vt7e2qqqpCQUFxcHAAAAr09PSHh4cQDQsFAAC6ubmbm5stLCxRUVEABg4RFhvGxsbX19cKBQEIDxUXGyCysrLPz89JSkx8fX5hYWI0Njji4uImJSVZWVobGhmRkZFJzXEPAAADk0lEQVRYhe2Z6XabMBCFGXaxiMUgQMZsNu//ih0JY0MMPW2w3J6ezo/ECKwPSXOvRomm/Y9fCbuOzcSMa/uTUMe8AIDv+/jzYjqfojYZ5PocOfjNR8gmVPo6KjCVU+0W9NeAVvE62yTbwOp6RtSCO5xj/kLFlqpTiW1xtHnqwxLNATpMs6xVh3VxbfOL5rgD5EJDqKXK11FIVwSDqwrr+CJ5Q/ExaRNWFzVL2lFeilX3Vcmpkb1vaSYWSZ41arCBVFCWbNw6+1JNgRKuKTvPrxu3PGklm1NxPE7SHIFt3CrkVOQnFVh76ntbLo0cMKgwjxp2hzsPGGoF3POUVttisSebPivgTmml70xlylUllvQGne9wB76nsfdw9+aZ72r7aLiTNxSbN3u5+L4Ki2b7djXtGLvJfiwcmLbazZtEzjMo2RnSqe9Nf57eKVWB1UJRa/AtkU5LcN8i3x7oSZwQ4OCtpzNo7qXeTs4dDpJDrBUZr+CasEnHNu78c12LlYiaQIeGUPp0DvMeHz5LeCXuLKOthFQSyCro703Oo5yu1BV2QcV5hwsdhvGjbebySk21IQNT62s6z1xVSTVFDNwfcY77Rwvci+j4J996Q9SQV6JwXnNzJQ65CocI0poL5BMnURN8vuBy/wPH0DuZdI/PpPsU9d+PwFHoCXthJ92NGsNJ+EWwqOqYaUrxuKbZLx/H63dkt2MAtSyLAhGZDE+EByD32xusLCxAcb/DuobIKOURG+uMGxX7kDuGbMFN6cqrAst6B9cFAy51EDgxjvQEQqqtfAfFXFLS7nFhJ2JG20gahVJuANZi9cxkrLWC0LIdTcEdZ649JiOm/DkZC8E9N10XHpJAgdP8zM4OwI2BGkYEKXIpaTyvuVkQO7j++NgF18G2LAMgopAeOZTWyMVfMrFGjVBwzxAZ2PGAXIOKZsQgV77eqQRXctMbNhw5tMxcHCP2g1zT7q8lhH0vuNE2VxRabVSSg1xcKIismbvIq6hlGIP1wnVEgWDRA9weO5RlIsJeuM98/sLtxQsf4mqlBd53uOwgt8Eez7/LdYTfLHT/jXBE3tyuF/pcXxRQGrMV10auxxJqTVwvjnHVj/35LkbdWFGJ+Yw6KgU3FgK6rf0qjQyR23TiTll+0LWKk1SvOI2l0p9x7gG5aNNyRFTsR4V8JBxQZ9hMxMXx8ieoGVu9vMPYyxZbs8X/dHrG/kCl8DfHDz+CM1e/ONDnAAAAAElFTkSuQmCC'/>
           <a href='https://github.com/biscrab'>https://github.com/biscrab</a>
           <span>소스코드 저장소</span>
+          <ul>
+            <li>과거 프로젝트, 프로그램, 앱의 소스 코드</li>
+            <li>혼자서 코딩 연습을 위해 끄적이던 소스 코드</li>
+          </ul>
         </div>
       </S.Github>
       <Comment lists={[]}/>

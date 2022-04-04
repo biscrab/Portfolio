@@ -12,6 +12,10 @@ a {
   text-decoration: none;
 }
 
+span{
+  font-size: 1vw;
+}
+
 button{
   border: 0;
   outline: 0;

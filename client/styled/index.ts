@@ -106,8 +106,8 @@ export const Skills = styled.div`
     width: 100%;
     background-color: #F9D852;
     padding: 0px 30vh;
-    padding-bottom: 15px;
-    padding-top: 30px;
+    padding-bottom: 4vh;
+    padding-top: 8vh;
 `
 
 export const Github = styled.div`
@@ -117,7 +117,11 @@ export const Github = styled.div`
     padding: 5vh 0vw;
     div{
         display: flex;
+        align-items: start;
         flex-direction: column;
+        ul{
+            padding-left: 1.3vw;
+        }
     }
 `
 
@@ -125,27 +129,28 @@ export const Title = styled.h1`
     display: inline;
     font-size: 45px;
     margin: 0;
-    margin-bottom: 30px;
+    margin-bottom: 3vh;
     border-bottom: 1px solid Black;
     font-family: 'Black Han Sans', sans-serif;
 `
 
 export const Field = styled.div`
     background-color: white;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    padding: 15px 20px;
-    margin-bottom: 30px;
+    box-shadow: 0.5vh 0.5vh 0.5vh 0.5vh rgba(0, 0, 0, 0.1);
+    border-radius: 0.5vw;
+    padding: 3vh 2vw;
+    margin-bottom: 5vh;
     h2{
         margin-top: 0px;
-        padding-bottom: 5px;
+        padding-bottom: 1vh;
         border-bottom: 2px solid #eee;
-        font-size: 28px;
+        font-size: 4vh;
     }
     div{
         display: flex;
+        flex-wrap: wrap;
         img{
-            height: 80px;
+            height: 10vh;
             margin-right: 20px;
         }
     }
