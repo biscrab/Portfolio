@@ -10,5 +10,5 @@ export const Footer = styled.footer`
 `
 
 export const LinkDiv = styled.div`
-
+    color: white;
 `

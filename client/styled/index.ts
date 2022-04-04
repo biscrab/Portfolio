@@ -4,7 +4,7 @@ type refProps = {
     ref: any
 }
 
-export const MyDiv = styled.div`
+export const My = styled.div`
     width: 100%;
     padding: 120px 0px;
     background-image: url("https://cdn.pixabay.com/photo/2019/09/17/18/48/computer-4484282_960_720.jpg");
@@ -31,7 +31,11 @@ export const MyDiv = styled.div`
     }
 `
 
-export const SkillsDiv = styled.div`
+export const AboutMe = styled.div`
+
+`
+
+export const Skills = styled.div`
     width: 100%;
     background-color: #F9D852;
     padding: 0px 20vh;
@@ -39,7 +43,7 @@ export const SkillsDiv = styled.div`
     padding-top: 30px;
 `
 
-export const ProjectsDiv = styled.div`
+export const Projects = styled.div`
     width: 100%;
     padding: 0px 20vh;
 `
@@ -60,7 +64,7 @@ export const ProjectTitle = styled.h2`
 
 `
 
-export const ProjectContentsDiv = styled.div`
+export const ProjectContents = styled.div`
 
 `
 
@@ -90,5 +94,26 @@ export const Field = styled.div`
             height: 80px;
             margin-right: 20px;
         }
+    }
+`
+
+export const CommentsDiv = styled.div`
+
+`
+
+export const CommentInputs = styled.div`
+
+`
+
+export const Comments = styled.div`
+
+`
+
+export const Comment = styled.div`
+    p{
+        
+    }
+    span{
+
     }
 `

@@ -8,6 +8,10 @@ const Header = () => {
 
     })
 
+    const scrollTo = (y) => {
+    
+    }
+
     return(
         <S.Header>
             <S.HeaderDiv>
