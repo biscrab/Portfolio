@@ -15,6 +15,7 @@ export const Projects = styled.div`
 
 export const Canvas = styled.canvas<refProps>`
     width: 100%;
+    height: 100%;
     position: absolute;
     z-index: -1;
     background-color: #111;
@@ -22,15 +23,15 @@ export const Canvas = styled.canvas<refProps>`
 
 export const Project = styled.div`
     background-color: white;
-    border-radius: 10px;
-    margin-bottom: 15px;
+    border-radius: 1vw;
+    margin-bottom: 5vh;
 `
 
 export const Title = styled.h1`
     text-align: center;
     font-family: 'Black Han Sans', sans-serif;
     font-weight: 300;
-    font-size: 35px;
+    font-size: 2.5vw;
 `
 
 export const Contents = styled.div`

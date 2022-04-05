@@ -168,24 +168,24 @@ export const CommentDiv = styled.div`
 `
 
 export const CommentInputs = styled.div`
-    height: 45px;
     display: flex;
+    height: 6vh;
     input{
-        height: 45px;
+        height: 6vh;
         background-color: rgba(0,0,0,0);
-        border: 2px solid white;
-        width: 300px;
-        font-size: 17px;
-        padding: 0px 15px;
+        border: 0.2vw solid white;
+        width: 18vw;
+        font-size: 1vw;
+        padding: 0px 1vw;
         color: white;
-        margin-right: 10px;
+        margin-right: 1vw;
         box-sizing: border-box;
     }
     button{
-        height: 45px;
+        height: 6vh;
         background-color: white;
-        width: 100px;
-        border-radius: 3px;
+        width: 10vw;
+        border-radius: 0.2vw;
         font-weight: bold;
     }
 `

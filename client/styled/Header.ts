@@ -14,15 +14,14 @@ export const Header = styled.header`
 export const HeaderDiv = styled.div`
     max-width: 75vw;
     width: 75vw;
-    height: 4.5rem;
-    padding: 2vh 3vw;
+    padding: 1.5vh 3vw;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #333;
     h1{
-        font-size: 4vh;
+        font-size: 1.8vw;
         margin: 0;
         cursor: pointer;
         :hover{
@@ -31,7 +30,7 @@ export const HeaderDiv = styled.div`
     }
     div{
         b{
-            font-size: 2.5vh;
+            font-size: 1.2vw;
             padding: 0vh 1vw;
             cursor: pointer;
             :hover{
