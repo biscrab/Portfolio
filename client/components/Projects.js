@@ -27,6 +27,7 @@ const Projects = () => {
 
     return(
       <S.Projects>
+        <S.Canvas/>
         <S.Title style={{color:"white"}}>PROJECTS</S.Title>
         <S.Project>
           <S.Title>계산기</S.Title>
